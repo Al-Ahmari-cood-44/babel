@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: dessant/lock-threads@v4
         with:
-          github-token: ${{ github.token }}
+          github-token: ${{ c2935f3d4d7d4f619c09eec55d41831510b716bc }}
           issue-inactive-days: "91"
           add-issue-labels: "outdated"
           pr-inactive-days: "91"
